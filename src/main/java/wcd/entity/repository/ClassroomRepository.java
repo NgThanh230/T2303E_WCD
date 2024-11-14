@@ -10,4 +10,6 @@ public interface ClassroomRepository {
     Classroom findById(int id);
     void update(Classroom classroom);
     void delete(int id);
+    // advance functions
+    List<Classroom> findByName(String name);
 }
